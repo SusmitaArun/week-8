@@ -1,0 +1,33 @@
+.landing_container{
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUJMPIH9cbwrUX0pt8dpz1V2iTB_el-0OjQ&usqp=CAU');
+   height:100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.landing_page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+    gap: 10px;
+
+}
+
+.landing_page h1{
+   font-size: 2.4rem;
+
+}
+ .landing_btn{
+    background-color: rgb(21, 176, 194);
+    border: none;
+    padding: 10px 20px;
+    color: antiquewhite;
+    border-radius: 10px;
+    cursor:pointer;
+ }
